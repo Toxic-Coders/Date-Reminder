@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E01E37;
+    color: #C71F37;
+}
+
+.date-d{
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    margin: 200px auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 12rem;
+}
+
+.date-d div{
+    cursor: pointer;
+    padding-left: 50px;
+    text-shadow: 0px 0px 5px white;
+}
+
+@media(max-width: 900px) {
+    .date-d{
+        font-size: 8rem;
+        margin-top: 250px;
+        transition: font-size .5s;
+    }
+
+    .date-d div{
+        padding: 10px;
+    }
+}
